@@ -20,7 +20,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader className="text-center pb-2">
               <FileText className="h-8 w-8 text-blue-600 mx-auto mb-2" />
@@ -67,23 +67,6 @@ const Index = () => {
               <Link to="/dashboard">
                 <Button className="w-full bg-purple-600 hover:bg-purple-700">
                   Ver Dashboard
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:shadow-lg transition-shadow">
-            <CardHeader className="text-center pb-2">
-              <Shield className="h-8 w-8 text-indigo-600 mx-auto mb-2" />
-              <CardTitle className="text-lg">Confirmação</CardTitle>
-              <CardDescription>
-                Status de envios
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <Link to="/confirmation">
-                <Button className="w-full bg-indigo-600 hover:bg-indigo-700">
-                  Ver Confirmação
                 </Button>
               </Link>
             </CardContent>
